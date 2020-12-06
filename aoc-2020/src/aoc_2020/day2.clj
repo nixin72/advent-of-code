@@ -1,7 +1,6 @@
-(ns aoc-2020.day2 (:require [clojure.string :as s]))
-
-(defn between [n lower upper]
-  (and (>= n lower) (<= n upper)))
+(ns aoc-2020.day2
+  (:use aoc-2020.util)
+  (:require [clojure.string :as s]))
 
 (defn only-one [c1 c2 ct]
   (and (or (= c1 ct) (= c2 ct))

@@ -17,5 +17,5 @@
   ;; (pprint (day-4-2))
   ;; (pprint (day-5-1))
   ;; (pprint (day-5-2))
-  ;; (pprint (day-6-1))
+  (pprint (day-6-1))
   (pprint (day-6-2)))

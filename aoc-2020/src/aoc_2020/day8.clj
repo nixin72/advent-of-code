@@ -49,9 +49,6 @@
         (let [el-to-swap (temp-codes curr-test)]
           (assoc! temp-codes curr-test (swap-code el-to-swap))
           (process-instructions temp-codes accumulator)
-          (println (str "Swapped index:" curr-test
-                        "\nAccumulator:" @accumulator
-                        "\nOpcodes:" (into [] (clone temp-codes))))
           (swap! accumulator (fn [_] 0))
           (recur (find-next-op opcodes (inc curr-test))
                  (transient opcodes))))

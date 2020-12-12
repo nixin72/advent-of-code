@@ -8,7 +8,8 @@
   (:use aoc-2020.day6)
   (:use aoc-2020.day7)
   (:use aoc-2020.day8)
-  (:use aoc-2020.day9))
+  (:use aoc-2020.day9)
+  (:use aoc-2020.day10))
 
 (defn -main []
   ;; (pprint (day-1-1))
@@ -26,5 +27,7 @@
   ;; (pprint (day-7-2))
   ;; (pprint (day-8-1))
   ;; (pprint (day-8-2))
-  (pprint (day-9-1))
-  #_(pprint (day-9-2)))
+  ;; (pprint (day-9-1))
+  ;; (pprint (day-9-2))
+  (pprint (day-10-1))
+  (pprint (day-10-2)))
